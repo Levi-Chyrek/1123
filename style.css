@@ -10,6 +10,13 @@
 }
 
 @font-face {
+  font-family: 'otvilna';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/OTVilna Variable-VF.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Mekorot-Rashi';
   font-style: normal;
   font-weight: 400;
@@ -24,7 +31,7 @@
 .targum,
 .perek,
 .pasuk {
-  font-family: 'SBL_Hbrw';
+  font-family: 'otvilna';
 }
 
 .pasuk {
@@ -63,7 +70,7 @@
 }
 
 [id^="aliya"] {
-  font-family: 'SBL_Hbrw';
+  font-family: 'otvilna', 'SBL_Hbrw';
   background-color:#d1d5db;
   line-height: 1.2;
   display: inline-block;
