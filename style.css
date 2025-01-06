@@ -25,19 +25,25 @@
 
 @media print { 
 
-.torah,
-.targum,
-.perek,
 .pasuk {
-  font-size: 60%;
+  font-size: 0.8em;
 }
+
+.perek {
+  font-size: 1.9em;
+}
+
+.torah {
+  font-size: 1.2em;
+}
+
+.targum {
+  font-size: 1.1em;}
 
 
 }
 
-#text div {
-    display: inline-table;
-}
+
 
 .parasha {
   margin-top: 10px;
