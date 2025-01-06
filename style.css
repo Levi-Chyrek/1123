@@ -74,23 +74,6 @@
   font-size: 0.8em;
 }
 
-@media print {
-    .pasuk {
-        font-size: .8em
-    }
-
-    .perek {
-        font-size: 1.5em
-    }
-
-    .torah {
-        font-size: 1.2em;
-    }
-
-    .targum {
-        font-size: 1.1em
-    }
-}
 
 
 [id^="aliya"] {
@@ -147,4 +130,30 @@
 
 [x-cloak] {
   display: none !important;
+}
+
+@media print {
+    body {
+        column-count: 2;
+        column-gap: 4px;
+        line-height: 1;
+    }
+    
+    .pasuk {
+        font-size: .6em
+    }
+
+    .perek {
+        font-size: 1em
+    }
+
+    .torah {
+        font-size: 0.8em
+    }
+
+    .targum {
+        font-size: 0.6em;
+        line-height: 1;
+
+    }
 }
