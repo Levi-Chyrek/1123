@@ -23,6 +23,10 @@
   src: local('Mekorot-Rashi'), url('/Mekorot-Rashi.ttf') format('truetype');
 }
 
+#text div {
+    display: inline-table;
+}
+
 .parasha {
   margin-top: 10px;
 }
