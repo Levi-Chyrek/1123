@@ -36,21 +36,21 @@
 
 .pasuk {
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 1.8em;
 }
 
 .perek {
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 2.9em;
 }
 
 .torah {
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-variation-settings: "wght" 600;
 }
 
 .targum {
-  font-size: 1.1em;
+  font-size: 2.1em;
   color: #555555;
 }
 .dark .targum {
