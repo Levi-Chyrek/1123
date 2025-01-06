@@ -134,11 +134,12 @@
 
 @media print {
     body {
-        -moz-column-count: 2;
-        column-count: 2;
+        -moz-column-count: 3;
+        column-count: 3;
         -moz-column-gap: 4px;
         column-gap: 4px;
-        line-height: normal
+        line-height: 1;
+        margin:0;
     }
 
     .pasuk {
@@ -146,15 +147,15 @@
     }
 
     .perek {
-        font-size: 1.5em
+        font-size: 1em
     }
 
     .torah {
-        font-size: 1.3em
+        font-size: .8em
     }
 
     .targum {
-        font-size: 1.1em;
+        font-size: .8em;
         line-height: 1
     }
 
@@ -169,7 +170,8 @@
     }
 
     .px-5 {
-        padding-left: .5rem;
-        padding-right: .5rem
+        padding-left: .4rem;
+        padding-right: .4rem
     }
 }
+
