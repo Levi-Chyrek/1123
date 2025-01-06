@@ -156,4 +156,19 @@
         line-height: 1;
 
     }
+
+  [class="hidden print:block text-center text-xl print:text-lg font-semibold mb-7"] {
+  font-family: otvilna;
+  font-weight: normal;
+}
+
+  [class="text-center text-2xl font-semibold print:text-xl"] {
+  font-family: otvilna;
+    font-weight:bold;
+  }
+
+  .px-5 {
+  padding-left: 0.50rem;
+  padding-right: 0.50rem;
+}
 }
