@@ -141,6 +141,9 @@
         line-height: 1;
         margin:0;
     }
+    @page {
+        margin: 0.2in; 
+    }
 
     .pasuk {
         font-size: .6em
