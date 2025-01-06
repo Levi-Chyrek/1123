@@ -23,25 +23,7 @@
   src: local('Mekorot-Rashi'), url('/Mekorot-Rashi.ttf') format('truetype');
 }
 
-@media print { 
 
-.pasuk {
-  font-size: 0.8em;
-}
-
-.perek {
-  font-size: 1.9em;
-}
-
-.torah {
-  font-size: 1.2em;
-}
-
-.targum {
-  font-size: 1.1em;}
-
-
-}
 
 
 
@@ -91,6 +73,25 @@
 .rashi {
   font-size: 0.8em;
 }
+
+@media print {
+    .pasuk {
+        font-size: .8em
+    }
+
+    .perek {
+        font-size: 1.5em
+    }
+
+    .torah {
+        font-size: 1.2em;
+    }
+
+    .targum {
+        font-size: 1.1em
+    }
+}
+
 
 [id^="aliya"] {
   font-family: 'otvilna', 'SBL_Hbrw';
