@@ -23,6 +23,18 @@
   src: local('Mekorot-Rashi'), url('/Mekorot-Rashi.ttf') format('truetype');
 }
 
+@media print { 
+
+.torah,
+.targum,
+.perek,
+.pasuk {
+  font-size: 60%;
+}
+
+
+}
+
 #text div {
     display: inline-table;
 }
